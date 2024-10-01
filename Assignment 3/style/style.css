@@ -1,0 +1,1062 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+/* -------------------------------Old Home Style Made with inline-block style--------------------------------------------------- */
+
+
+/* .home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('../images/drew-coffman-1872.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-lin {
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.main-lin img {
+    position: absolute;
+    width: 170px;
+    left: 13%;
+    top: 3%;
+}
+
+.lins {
+    position: absolute;
+    width: 30%;
+    right: 14%;
+    top: 5.5%;
+}
+
+.main-lin a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.center-stuff {
+    color: aliceblue;
+    width: 42%;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.welcome,
+.we-are {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .92);
+    font-size: 22px;
+}
+
+.familyb {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 76px;
+    margin: 0;
+}
+
+.we-are {
+    font-size: 24px;
+}
+
+.buttons {
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+}
+
+.hed-buttons button {
+    width: 8%;
+    height: 55%;
+    margin: 5px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.contact1 {
+    background: none;
+    color: rgba(255, 255, 255, .92);
+    border: white solid;
+}
+
+.learn1 {
+    background-color: #8E7754;
+    color: white;
+}
+
+.get-down a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.get-down {
+    width: 70px;
+    height: 70px;
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+
+.who-we-are {
+    display: inline-block;
+}
+
+.who-we-are img {
+    width: 30%;
+    margin-top: 6%;
+    margin-left: 15%;
+}
+
+.who-cont {
+    width: 40%;
+    float: right;
+    margin-top: 6%;
+    margin-right: 10%;
+    color: black;
+}
+
+.who-we {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 32px;
+    margin: 0;
+}
+
+.desc {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.lists {
+    width: 60%;
+    position: relative;
+}
+
+.lists img {
+    width: 10%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-left: 0.2%;
+}
+
+.lists p {
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.our-location-back {
+    background-color: #F8F8F8;
+}
+
+.our-location {
+    display: inline-block;
+    padding: 70px 0 70px;
+}
+
+.cheifs {
+    width: 35%;
+    float: right;
+    margin-right: 15%;
+
+}
+
+.our-inf {
+    width: 30%;
+    margin-left: 15%;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.img-des {
+    text-align: center;
+    width: 25%;
+    float: right;
+    margin: 1.5%;
+
+}
+
+.img-des img {
+    width: 100%;
+}
+
+.collec-img {
+    margin-right: 14%;
+}
+
+.our-baking{
+    padding: 30px 0 30px 0;
+}
+.our-title {
+    text-align: center;
+    margin: 5%;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.learn-more {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+
+
+.contact-information {
+    margin-top: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.icon-img,
+.main-text p {
+    width: 50%;
+    margin-top: 3%;
+
+}
+
+
+.contact-title {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.contact-text {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.icon-color img {
+    background-color: #8E7754;
+}
+
+.icon-color {
+    margin-top: 3%;
+}
+
+.icon-img p {
+    top: -25%;
+}
+
+.maps {
+    float: right;
+}
+.with-back img{
+    background-color: #8E7754;
+}
+.footer {
+    background-color: #403D38;
+    height: 500px;
+    overflow: auto;
+}
+
+.footer-container {
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 17%;
+}
+
+.footer-about {
+    color: rgb(128, 128, 128);
+    width: 20%;
+    margin-left: 1%;
+    float: left;
+}
+
+.footer-tittle {
+    color: #F8F8F8;
+}
+
+.arrows p {
+    top: -40%;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.arrows img {
+    border: none;
+    width: 7%;
+}
+
+.arrows {
+    border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+    padding-bottom: 7%;
+    margin-top: 5%;
+    width: 97%;
+    display: block;
+}
+.no-border{
+    border: none;
+}
+.with-img {
+    position: relative;
+    z-index: 1;
+}
+
+.with-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/contact-details-map.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.for-logo {
+    background-color: #353330;
+    text-align: center;
+    height: 300px;
+    color: aliceblue;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.small-icons img {
+    border-radius: 50%;
+    background-color: #484540;
+    width: 2.5%;
+    margin-right: 0.5%;
+}
+
+.for-logo p,
+.small-icons,
+.bakery-lo {
+    margin-top: 1.5%;
+}
+
+.bakery-lo {
+    margin-top: 3%;
+}
+
+
+.home-why-list-imag img {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.home-why,
+.home-about {
+    width: 21%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.home-why-list-imag {
+    width: 8%;
+    float: left;
+}
+.home-why ul {
+    padding-left: 0;
+}
+.home-why-list-text li{
+    border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+    border-bottom-left-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.home-why-list-text ul {
+    float: left;
+}
+.last-foot{
+    margin-left: 40px;
+}
+.last-foot{
+    margin-bottom: 10px;
+}
+.last-foot-imag img{
+    width: 150%;
+}
+.last-foot-imag li{
+    margin-bottom: -7px;
+}
+.home-footer{
+    padding: 70px 0 70px 0;
+    padding-left: 150px;
+}
+.location{
+    width: 106%;
+} */
+
+/* ///////////////////////////////////////New-home-page-with float\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.a-decore a {
+    color: white;
+}
+
+.side-small-box {
+    background-color: rgb(255, 255, 255);
+    padding: 6px 3px;
+    border-radius: 5px;
+    position: absolute;
+    top: 400px;
+    right: 0;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.side-small-box i {
+    display: block;
+    font-size: 20px;
+    padding: 7px;
+    color: #868484;
+    padding-bottom: 12px;
+}
+
+.top {
+    margin-left: 2px;
+}
+
+.home-nave-bar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('../images/drew-coffman-1872.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-welcome {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.home-family {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 76px;
+    margin: 30px;
+}
+
+.home-class {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    width: 42%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.main-nav-home {
+    padding: 35px 190px 0 200px;
+}
+
+.home-title {
+    text-align: center;
+    margin-top: 180px;
+    color: #F8F8F8;
+}
+
+.home-title p {
+    padding-bottom: 0;
+}
+
+.buttons {
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+}
+
+button {
+    margin: 5px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 20px 25px;
+}
+
+.contact {
+    background: none;
+    color: rgba(255, 255, 255, .92);
+    border: 2px solid rgb(250, 248, 248);
+}
+
+.learn {
+    background-color: #8E7754;
+    color: white;
+}
+
+.get-down a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.get-down {
+    width: 70px;
+    height: 70px;
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+
+.home-second {
+    margin-left: 100px;
+}
+
+.home-text {
+    margin-top: 0px;
+}
+
+.home-top-text-title {
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.home-top-text-des {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: RGB(104, 104, 104);
+}
+
+.home-lower-images li {
+    width: 100%;
+}
+
+.home-lower-text img {
+    margin-top: 5px;
+    width: 8%;
+    float: left;
+    border: 1px solid rgb(128, 128, 128, 0.3);
+    border-radius: 50%;
+}
+
+.home-lower-text p {
+    display: inline-block;
+    margin-left: 5px;
+    padding-top: 0;
+    width: 52%;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.home-fifth-lower li {
+    display: inline-block;
+}
+
+.home-fifth-map {
+    float: right;
+    margin-top: 15px;
+}
+
+.home-fifth-text {
+    width: 45%;
+}
+
+.home-fifth-lower li {
+    margin-left: 0;
+}
+
+.home-fifth {
+    padding: 80px 200px;
+    background-color: #F8F8F8;
+}
+
+.fifth-lower-text li {
+    margin-bottom: 42px;
+}
+
+/* -------------------------------------------------Footer------------------------------------------------------- */
+.lists {
+    width: 100%;
+    position: relative;
+}
+
+.lists img {
+    width: 10%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-left: 0.2%;
+}
+
+.lists p {
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.our-location-back {
+    background-color: #F8F8F8;
+}
+
+.our-location {
+    display: inline-block;
+    padding: 70px 0 70px;
+}
+
+.cheifs {
+    width: 35%;
+    float: right;
+    margin-right: 15%;
+
+}
+
+.our-inf {
+    width: 30%;
+    margin-left: 15%;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.img-des {
+    text-align: center;
+    width: 25%;
+    float: right;
+    margin: 1.5%;
+
+}
+
+.img-des img {
+    width: 100%;
+}
+
+.collec-img {
+    margin-right: 14%;
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+}
+
+.our-baking {
+    padding: 30px 0 30px 0;
+}
+
+.our-title {
+    text-align: center;
+    margin: 5%;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.learn-more {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.contact-information {
+    margin-top: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.icon-img,
+.main-text p {
+    width: 50%;
+    margin-top: 3%;
+
+}
+
+
+.contact-title {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.contact-text {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.icon-color img {
+    background-color: #8E7754;
+}
+
+.icon-color {
+    margin-top: 3%;
+}
+
+.icon-img p {
+    top: -25%;
+}
+
+.maps {
+    float: right;
+}
+
+.with-back img {
+    width: 8%;
+    background-color: #8E7754;
+}
+
+.footer {
+
+    background-color: #403D38;
+    height: 500px;
+    overflow: auto;
+}
+
+.footer-container {
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+}
+
+.footer-about {
+    color: rgb(128, 128, 128);
+    width: 22%;
+    margin-left: 1%;
+    float: left;
+}
+
+.footer-tittle {
+    color: #F8F8F8;
+}
+
+.arrows p {
+    top: -40%;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.arrows img {
+    border: none;
+    width: 7%;
+}
+
+.arrows {
+    border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+    padding-bottom: 7%;
+    margin-top: 5%;
+    width: 97%;
+    display: block;
+}
+
+.no-border {
+    border: none;
+}
+
+.with-img {
+    position: relative;
+    z-index: 1;
+}
+
+.with-img p {
+    margin-left: 10px;
+    top: -10px;
+}
+
+.with-img img {
+    width: 12%;
+}
+
+.with-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/contact-details-map.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.for-logo {
+    background-color: #353330;
+    text-align: center;
+    height: 300px;
+    color: aliceblue;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.small-icons img {
+    border-radius: 50%;
+    background-color: #484540;
+    width: 2.5%;
+    margin-right: 0.5%;
+}
+
+.for-logo p,
+.small-icons,
+.bakery-lo {
+    margin-top: 1.5%;
+}
+
+.bakery-lo {
+    margin-top: 3%;
+}
+
+/* /////////////////////////////////about-page\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.about-bakery-logo {
+
+    display: inline-block;
+}
+
+.about-bakery-logo img {
+    width: 250px;
+}
+
+.about-navebar {
+
+    float: right;
+}
+
+.about-navebar ul {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.about-navebar li {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .92);
+    font-size: 18px;
+    padding-top: 15px;
+    float: left;
+    margin-right: 23px;
+}
+
+.about-navebar a {
+    text-decoration: none;
+}
+
+.about-nav {
+    background-color: #ff2525;
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-position-y: 99%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.background {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding: 30px 90px;
+}
+
+.about-text {
+    margin-top: 100px;
+    color: #F8F8F8;
+    text-align: center;
+}
+
+.about-our-story {
+    padding: 120px;
+}
+
+.our-story-left {
+    float: left;
+    width: 40%;
+}
+
+.our-story-left img {
+    width: 100%;
+    background-color: #8E7754;
+}
+
+.our-story-right {
+    float: right;
+    width: 40%;
+    padding: 0px 180px 0 0;
+
+}
+
+.why-our-bakery-tittle {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.why-our-first {
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+}
+
+.why-our-text {
+    padding: 0 100px;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.footer-bigger {
+    background-color: #8E7754;
+    height: 400px;
+    font-size: 35px;
+    color: #F8F8F8;
+    text-align: center;
+    overflow: auto;
+}
+
+.footer-first-child {
+    margin-left: 190px;
+    margin-top: 80px;
+}
+
+.footer-childs {
+    float: left;
+    margin-right: 170px;
+}
+
+/* ///////////////////////////////////our offer-page\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.our-offer-nav {
+    background-position-y: 50%;
+
+}
+
+.our-offer-seconed {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.with-horl {
+    border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+    padding-bottom: 12px;
+
+}
+
+.pounds {
+    float: right;
+}
+
+.gallery-nav {
+    background-color: #F8F8F8;
+    background-image: none;
+
+}
+
+.gallery-text {
+    color: black;
+}
+
+.gallery-images img {
+    float: left;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.gallery-images {
+    margin-bottom: 7px;
+}
+
+.gallery-images-text {
+    padding: 0 40px;
+}
+
+/* ///////////////////////////////blog-page\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.nav-blog-text {
+    color: #353330;
+}
+
+.nav-blog-text span {
+    float: left;
+}
+
+.nav-blog-right {
+    float: right;
+}
+
+.first-blog-container {
+    padding: 0 200px;
+}
+
+.main-blog-left-card {
+    width: 30%;
+    text-align: center;
+    border: 1px solid rgb(128, 128, 128, 0.3);
+    float: left;
+}
+
+.main-blog-left-card img {
+    width: 100%;
+}
+
+.main-blog-left {
+    background-color: #ff2525;
+    width: 70%;
+}
+
+.right2 i {
+    display: block;
+}
+
+
+
+
+
+.ref a {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.black a {
+    color: black;
+}
